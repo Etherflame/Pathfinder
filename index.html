@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="app/scss/style.css">
+
+    <title>Pathfinder | Home</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="container--pall flex flex-jc-sb flex-ai-c ">
+            <h1>Path<span class="span-green">Finder</span></h1>
+            <!-- <form action="header__search">
+                <input type="search" class="header__input" name="search" placeholder="Search"> 
+                <button class="header__search--btn">Search</button>  
+            </form>  -->
+
+            <div class="wrapper flex flex-ai-c flex-jc-sb">
+                <svg id="btnSearch" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <title>search</title>
+                    <path d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"></path>
+                    </svg>
+                    
+                <a id="btnHamburger" href="#" class="header__toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div> 
+        </nav>  
+        <div class="header__menu">
+            <a href="#">Home</a>
+            <a href="#">Explore</a>
+            <a href="#">Plans</a>
+            <a href="#">About Us</a>
+            <a href="#">Download</a>
+            <a href="#">Settings</a>
+        </div>  
+        
+        <form action="#" class="header__search flex flex-ai-c container--px">
+            <svg class="header__search--open-btn" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <title>search</title>
+                <path d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"></path>
+                </svg>   
+
+            <input type="search" class="header__input" name="search" placeholder="Search hikes and trails..."> 
+            <button class="header__search--btn none">Search</button>  
+               
+            <svg class="header__search--close-btn" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <title>x</title>
+                <path d="M5.293 6.707l5.293 5.293-5.293 5.293c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l5.293-5.293 5.293 5.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414l-5.293-5.293 5.293-5.293c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
+                </svg>
+                         
+        </form> 
+    </header>
+    <div class="bg-overlay"></div>
+
+    <section class="hero flex flex-ai-c flex-fd-c container--px">
+        <h1>Finding <span class="span-green">paths</span> and trails made easy</h1>
+        <button>Search</button>
+        <div class="location flex flex-ai-c">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <title>location</title>
+                <path d="M15.938 32c0 0-9.938-14.062-9.938-20.062 0-11.813 9.938-11.938 9.938-11.938s10.062 0.125 10.062 11.875c0 6.187-10.062 20.125-10.062 20.125zM16 6c-2.209 0-4 1.791-4 4s1.791 4 4 4 4-1.791 4-4-1.791-4-4-4z"></path>
+                </svg>                
+            <p>Explore Local Trails</p> 
+        </div>    
+    </section>
+    
+    <section class=""></section>
+    <script src="app/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+.hero {
+  position: relative;
+  padding-top: 5rem;
+  h1 {
+    text-align: center;
+    font-size: 2.265rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+
+  button {
+    margin-top: 3rem;
+    padding: 0.5rem 5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--color--black);
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+    border-radius: 25rem;
+  }
+
+  .location {
+    text-decoration: underline;
+    cursor: pointer;
+    svg {
+      padding-right: 2px;
+      fill: var(--color--white);
+      width: 1.1rem;
+    }
+  }
+
+  &__search {
+    font-size: 0.8rem;
+    margin-top: 6rem;
+    margin-bottom: 0.5rem;
+    // padding: 0.5rem 4rem;
+    font-family: inherit;
+    border: none;
+    border-radius: 1rem;
+    width: 10rem;
+  }
+}

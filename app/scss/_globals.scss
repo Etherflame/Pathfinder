@@ -1,0 +1,115 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  // background-color: rgb(21, 27, 88);
+  background-image: url(/images/test3.jpg);
+  background-repeat: no-repeat;
+  color: var(--color--white);
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+.none {
+  display: none;
+}
+
+.bg-overlay {
+  position: absolute;
+  background-color: #090909c9;
+  width: 100vw;
+  height: 100vh;
+}
+
+.span-green {
+  color: var(--color--primary);
+}
+
+// Spacing
+
+.container {
+  &--pall {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+  }
+
+  &--py {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  &--px {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  &--pt {
+    padding-top: 1rem;
+  }
+
+  &--pr {
+    padding-right: 1rem;
+  }
+
+  &--pb {
+    padding-bottom: 1rem;
+  }
+
+  &__pl {
+    padding-left: 1rem;
+  }
+}
+
+// Flex
+
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+  &-jc {
+    justify-content: center;
+  }
+
+  &-jc-se {
+    justify-content: space-evenly;
+  }
+
+  &-jc-sa {
+    justify-content: space-around;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+
+  &-fd-c {
+    flex-direction: column;
+  }
+}
